@@ -1,0 +1,19 @@
+{
+  "name": "mental-health-project",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js",
+    "test": "node --test"
+  },
+  "author": "Pradip",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "js": "^0.1.0",
+    "node": "^23.11.0"
+  }
+}

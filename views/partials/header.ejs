@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Mental Health Matters — a little space to pause, check in with yourself, and find your next small step.">
+  <meta name="color-scheme" content="light dark">
+  <title><%= title %> · Mental Health Matters</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/css/styles.css">
+  <script src="/js/theme.js"></script>
+  <script src="/js/app.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <a class="brand" href="/" aria-label="Mental Health Matters home"><span class="brand-mark" aria-hidden="true">m<span>✳</span></span><span>Mental Health<span class="brand-second">Matters</span></span></a>
+  <nav aria-label="Main navigation">
+    <a href="/" <%- currentPath === '/' ? 'aria-current="page"' : '' %>>Home</a>
+    <a href="/about" <%- currentPath === '/about' ? 'aria-current="page"' : '' %>>Our purpose</a>
+    <a href="/#small-steps">Small steps</a>
+  </nav>
+  <div class="header-actions"><button class="theme-button" id="theme-toggle" aria-label="Switch to dark theme" aria-pressed="false" hidden>◐</button><a href="/contact" class="button small">Find support <span aria-hidden="true">↗</span></a></div>
+</header>
