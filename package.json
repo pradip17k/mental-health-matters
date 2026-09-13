@@ -5,6 +5,7 @@
   "scripts": {
     "start": "node app.js",
     "dev": "node --watch app.js",
+    "build:pages": "node scripts/build-pages.js",
     "test": "node --test"
   },
   "author": "Pradip",
